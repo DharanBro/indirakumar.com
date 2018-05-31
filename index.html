@@ -1,8 +1,113 @@
 <html>
-    <head>
-        <title>Indira Kumar</title>
-    </head>
-    <body>
-        I am Indira Kumar
-    </body>
+
+<head>
+    <title>Indira Kumar</title>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+
+            background-image: url("./images/IKU_3086.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+        }
+
+        #one,
+        #two {
+            font-family: 'Pacifico', cursive;
+            font-size: 40px;
+            color: #c6c6c6;
+            font-weight: bold;
+        }
+
+        #overlay {
+            width: 100%;
+            height: 100%;
+            background: black;
+            opacity: 0.5;
+
+            position: absolute;
+            z-index: 1;
+        }
+
+        ul.social-media {
+            text-align: center;
+        }
+
+        ul.social-media li {
+            list-style: none;
+            display: inline-block;
+            margin-right: 5px;
+
+        }
+
+        .circle-icon {
+            display: inline-block;
+            background: #c6c6c6;
+            font-size: 14px;
+            color: #202020;
+            height: 26px;
+            width: 26px;
+            text-align: center;
+            line-height: 26px;
+            padding: 0;
+            -webkit-border-radius: 50px;
+            -moz-border-radius: 50px;
+            border-radius: 50px;
+        }
+
+        .circle-icon>i {
+            margin-top: 6px;
+        }
+
+        .circle-icon:hover {
+            color: #c6c6c6;
+            background: #202020;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="overlay">
+    </div>
+    <div id="content">
+        <p id="one">Under Construction</p>
+        <ul class="social-media">
+            <li>
+                <a href="#" target="_blank" class="circle-icon">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_blank" class="circle-icon">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_blank" class="circle-icon">
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+        <!-- <p id="two">I am Indira Kumar</p> -->
+    </div>
+</body>
+
 </html>
